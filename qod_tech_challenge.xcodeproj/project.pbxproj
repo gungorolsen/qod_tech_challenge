@@ -14,6 +14,8 @@
 		56FC3B0A2895DF6500A47259 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56FC3B092895DF6500A47259 /* Assets.xcassets */; };
 		56FC3B0D2895DF6500A47259 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56FC3B0B2895DF6500A47259 /* LaunchScreen.storyboard */; };
 		56FC3B182895DF6500A47259 /* qod_tech_challengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FC3B172895DF6500A47259 /* qod_tech_challengeTests.swift */; };
+		56FC3B362895E0D400A47259 /* HttpClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FC3B342895E0B400A47259 /* HttpClient.swift */; };
+		56FC3B372895E0D700A47259 /* HttpError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FC3B352895E0B400A47259 /* HttpError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +39,8 @@
 		56FC3B0E2895DF6500A47259 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		56FC3B132895DF6500A47259 /* qod_tech_challengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = qod_tech_challengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		56FC3B172895DF6500A47259 /* qod_tech_challengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = qod_tech_challengeTests.swift; sourceTree = "<group>"; };
+		56FC3B342895E0B400A47259 /* HttpClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpClient.swift; sourceTree = "<group>"; };
+		56FC3B352895E0B400A47259 /* HttpError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +129,8 @@
 		56FC3B332895E04600A47259 /* Support */ = {
 			isa = PBXGroup;
 			children = (
+				56FC3B342895E0B400A47259 /* HttpClient.swift */,
+				56FC3B352895E0B400A47259 /* HttpError.swift */,
 			);
 			path = Support;
 			sourceTree = "<group>";
@@ -232,6 +238,8 @@
 			files = (
 				56FC3B052895DF6100A47259 /* ViewController.swift in Sources */,
 				56FC3B012895DF6100A47259 /* AppDelegate.swift in Sources */,
+				56FC3B372895E0D700A47259 /* HttpError.swift in Sources */,
+				56FC3B362895E0D400A47259 /* HttpClient.swift in Sources */,
 				56FC3B032895DF6100A47259 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -407,7 +415,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.olsen.qod-tech-challenge";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qod-tech-challenge";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -434,7 +442,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.olsen.qod-tech-challenge";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qod-tech-challenge";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
