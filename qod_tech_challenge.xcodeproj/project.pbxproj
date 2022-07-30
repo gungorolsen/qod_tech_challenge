@@ -78,10 +78,12 @@
 		56FC3AFF2895DF6100A47259 /* qod_tech_challenge */ = {
 			isa = PBXGroup;
 			children = (
+				56FC3B302895E02D00A47259 /* Presentation */,
+				56FC3B312895E03700A47259 /* Domain */,
+				56FC3B322895E03E00A47259 /* Data */,
+				56FC3B332895E04600A47259 /* Support */,
 				56FC3B002895DF6100A47259 /* AppDelegate.swift */,
 				56FC3B022895DF6100A47259 /* SceneDelegate.swift */,
-				56FC3B042895DF6100A47259 /* ViewController.swift */,
-				56FC3B062895DF6100A47259 /* Main.storyboard */,
 				56FC3B092895DF6500A47259 /* Assets.xcassets */,
 				56FC3B0B2895DF6500A47259 /* LaunchScreen.storyboard */,
 				56FC3B0E2895DF6500A47259 /* Info.plist */,
@@ -95,6 +97,36 @@
 				56FC3B172895DF6500A47259 /* qod_tech_challengeTests.swift */,
 			);
 			path = qod_tech_challengeTests;
+			sourceTree = "<group>";
+		};
+		56FC3B302895E02D00A47259 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				56FC3B042895DF6100A47259 /* ViewController.swift */,
+				56FC3B062895DF6100A47259 /* Main.storyboard */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		56FC3B312895E03700A47259 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		56FC3B322895E03E00A47259 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		56FC3B332895E04600A47259 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Support;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
