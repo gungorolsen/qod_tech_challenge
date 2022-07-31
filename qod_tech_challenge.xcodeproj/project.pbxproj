@@ -16,6 +16,18 @@
 		56FC3B182895DF6500A47259 /* qod_tech_challengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FC3B172895DF6500A47259 /* qod_tech_challengeTests.swift */; };
 		56FC3B362895E0D400A47259 /* HttpClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FC3B342895E0B400A47259 /* HttpClient.swift */; };
 		56FC3B372895E0D700A47259 /* HttpError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FC3B352895E0B400A47259 /* HttpError.swift */; };
+		56FC3B3B2895E5F800A47259 /* CategoryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FC3B392895E5F800A47259 /* CategoryService.swift */; };
+		56FC3B3C2895E5F800A47259 /* QuoteService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FC3B3A2895E5F800A47259 /* QuoteService.swift */; };
+		56FC3B402895E60B00A47259 /* CategoryResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FC3B3E2895E60B00A47259 /* CategoryResponse.swift */; };
+		56FC3B412895E60B00A47259 /* QuoteResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FC3B3F2895E60B00A47259 /* QuoteResponse.swift */; };
+		56FC3B452895E61400A47259 /* CategoryMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FC3B432895E61400A47259 /* CategoryMapper.swift */; };
+		56FC3B462895E61400A47259 /* QuoteMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FC3B442895E61400A47259 /* QuoteMapper.swift */; };
+		56FC3B4A2895E62D00A47259 /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FC3B482895E62D00A47259 /* Quote.swift */; };
+		56FC3B4B2895E62D00A47259 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FC3B492895E62D00A47259 /* Category.swift */; };
+		56FC3B4F2895E63800A47259 /* QuoteRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FC3B4D2895E63800A47259 /* QuoteRepository.swift */; };
+		56FC3B502895E63800A47259 /* CategoryRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FC3B4E2895E63800A47259 /* CategoryRepository.swift */; };
+		56FC3B522895E64900A47259 /* DomainError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FC3B512895E64900A47259 /* DomainError.swift */; };
+		56FC3B542895E69100A47259 /* Endpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FC3B532895E69100A47259 /* Endpoints.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +53,18 @@
 		56FC3B172895DF6500A47259 /* qod_tech_challengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = qod_tech_challengeTests.swift; sourceTree = "<group>"; };
 		56FC3B342895E0B400A47259 /* HttpClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpClient.swift; sourceTree = "<group>"; };
 		56FC3B352895E0B400A47259 /* HttpError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpError.swift; sourceTree = "<group>"; };
+		56FC3B392895E5F800A47259 /* CategoryService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryService.swift; sourceTree = "<group>"; };
+		56FC3B3A2895E5F800A47259 /* QuoteService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuoteService.swift; sourceTree = "<group>"; };
+		56FC3B3E2895E60B00A47259 /* CategoryResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryResponse.swift; sourceTree = "<group>"; };
+		56FC3B3F2895E60B00A47259 /* QuoteResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuoteResponse.swift; sourceTree = "<group>"; };
+		56FC3B432895E61400A47259 /* CategoryMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryMapper.swift; sourceTree = "<group>"; };
+		56FC3B442895E61400A47259 /* QuoteMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuoteMapper.swift; sourceTree = "<group>"; };
+		56FC3B482895E62D00A47259 /* Quote.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
+		56FC3B492895E62D00A47259 /* Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		56FC3B4D2895E63800A47259 /* QuoteRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuoteRepository.swift; sourceTree = "<group>"; };
+		56FC3B4E2895E63800A47259 /* CategoryRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryRepository.swift; sourceTree = "<group>"; };
+		56FC3B512895E64900A47259 /* DomainError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DomainError.swift; sourceTree = "<group>"; };
+		56FC3B532895E69100A47259 /* Endpoints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Endpoints.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +139,9 @@
 		56FC3B312895E03700A47259 /* Domain */ = {
 			isa = PBXGroup;
 			children = (
+				56FC3B512895E64900A47259 /* DomainError.swift */,
+				56FC3B4C2895E63800A47259 /* Repos */,
+				56FC3B472895E62D00A47259 /* Models */,
 			);
 			path = Domain;
 			sourceTree = "<group>";
@@ -122,6 +149,10 @@
 		56FC3B322895E03E00A47259 /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				56FC3B532895E69100A47259 /* Endpoints.swift */,
+				56FC3B422895E61400A47259 /* Mappers */,
+				56FC3B3D2895E60B00A47259 /* Models */,
+				56FC3B382895E5F800A47259 /* Services */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -133,6 +164,51 @@
 				56FC3B352895E0B400A47259 /* HttpError.swift */,
 			);
 			path = Support;
+			sourceTree = "<group>";
+		};
+		56FC3B382895E5F800A47259 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				56FC3B392895E5F800A47259 /* CategoryService.swift */,
+				56FC3B3A2895E5F800A47259 /* QuoteService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		56FC3B3D2895E60B00A47259 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				56FC3B3E2895E60B00A47259 /* CategoryResponse.swift */,
+				56FC3B3F2895E60B00A47259 /* QuoteResponse.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		56FC3B422895E61400A47259 /* Mappers */ = {
+			isa = PBXGroup;
+			children = (
+				56FC3B432895E61400A47259 /* CategoryMapper.swift */,
+				56FC3B442895E61400A47259 /* QuoteMapper.swift */,
+			);
+			path = Mappers;
+			sourceTree = "<group>";
+		};
+		56FC3B472895E62D00A47259 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				56FC3B482895E62D00A47259 /* Quote.swift */,
+				56FC3B492895E62D00A47259 /* Category.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		56FC3B4C2895E63800A47259 /* Repos */ = {
+			isa = PBXGroup;
+			children = (
+				56FC3B4D2895E63800A47259 /* QuoteRepository.swift */,
+				56FC3B4E2895E63800A47259 /* CategoryRepository.swift */,
+			);
+			path = Repos;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,10 +312,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56FC3B452895E61400A47259 /* CategoryMapper.swift in Sources */,
+				56FC3B3C2895E5F800A47259 /* QuoteService.swift in Sources */,
+				56FC3B542895E69100A47259 /* Endpoints.swift in Sources */,
 				56FC3B052895DF6100A47259 /* ViewController.swift in Sources */,
+				56FC3B502895E63800A47259 /* CategoryRepository.swift in Sources */,
 				56FC3B012895DF6100A47259 /* AppDelegate.swift in Sources */,
+				56FC3B4A2895E62D00A47259 /* Quote.swift in Sources */,
 				56FC3B372895E0D700A47259 /* HttpError.swift in Sources */,
+				56FC3B4F2895E63800A47259 /* QuoteRepository.swift in Sources */,
+				56FC3B3B2895E5F800A47259 /* CategoryService.swift in Sources */,
 				56FC3B362895E0D400A47259 /* HttpClient.swift in Sources */,
+				56FC3B412895E60B00A47259 /* QuoteResponse.swift in Sources */,
+				56FC3B4B2895E62D00A47259 /* Category.swift in Sources */,
+				56FC3B462895E61400A47259 /* QuoteMapper.swift in Sources */,
+				56FC3B402895E60B00A47259 /* CategoryResponse.swift in Sources */,
+				56FC3B522895E64900A47259 /* DomainError.swift in Sources */,
 				56FC3B032895DF6100A47259 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
