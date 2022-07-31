@@ -10,7 +10,6 @@
 		56FC3B012895DF6100A47259 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FC3B002895DF6100A47259 /* AppDelegate.swift */; };
 		56FC3B032895DF6100A47259 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FC3B022895DF6100A47259 /* SceneDelegate.swift */; };
 		56FC3B052895DF6100A47259 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FC3B042895DF6100A47259 /* ViewController.swift */; };
-		56FC3B082895DF6100A47259 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56FC3B062895DF6100A47259 /* Main.storyboard */; };
 		56FC3B0A2895DF6500A47259 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56FC3B092895DF6500A47259 /* Assets.xcassets */; };
 		56FC3B0D2895DF6500A47259 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56FC3B0B2895DF6500A47259 /* LaunchScreen.storyboard */; };
 		56FC3B182895DF6500A47259 /* qod_tech_challengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FC3B172895DF6500A47259 /* qod_tech_challengeTests.swift */; };
@@ -33,6 +32,20 @@
 		56FC3B602896495400A47259 /* CategoryMapperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FC3B5C2896495400A47259 /* CategoryMapperTests.swift */; };
 		56FC3B612896495400A47259 /* QuoteMapperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FC3B5D2896495400A47259 /* QuoteMapperTests.swift */; };
 		56FC3B622896495400A47259 /* QuoteServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FC3B5E2896495400A47259 /* QuoteServiceTests.swift */; };
+		56FC3B69289649F000A47259 /* QuotePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FC3B63289649F000A47259 /* QuotePresenter.swift */; };
+		56FC3B6A289649F000A47259 /* EndEditing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FC3B64289649F000A47259 /* EndEditing.swift */; };
+		56FC3B6B289649F000A47259 /* AlertDisplaying.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FC3B65289649F000A47259 /* AlertDisplaying.swift */; };
+		56FC3B6C289649F000A47259 /* MailComposerRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FC3B66289649F000A47259 /* MailComposerRouter.swift */; };
+		56FC3B6D289649F000A47259 /* QuoteDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FC3B67289649F000A47259 /* QuoteDisplay.swift */; };
+		56FC3B6E289649F000A47259 /* QuoteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FC3B68289649F000A47259 /* QuoteViewModel.swift */; };
+		56FC3B7028964A1600A47259 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56FC3B6F28964A1600A47259 /* Main.storyboard */; };
+		56FC3B7428964A2A00A47259 /* GetValidEmailAddressesUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FC3B7228964A2A00A47259 /* GetValidEmailAddressesUseCase.swift */; };
+		56FC3B7528964A2A00A47259 /* GetRandomQuoteUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FC3B7328964A2A00A47259 /* GetRandomQuoteUseCase.swift */; };
+		56FC3B7728964A5000A47259 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FC3B7628964A5000A47259 /* StringExtensions.swift */; };
+		56FC3B7A28964AAE00A47259 /* GetRandomQuoteUseCaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FC3B7828964AAE00A47259 /* GetRandomQuoteUseCaseTests.swift */; };
+		56FC3B7B28964AAE00A47259 /* GetValidEmailAddressesUseCaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FC3B7928964AAE00A47259 /* GetValidEmailAddressesUseCaseTests.swift */; };
+		56FC3B7D28964AB700A47259 /* StringExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FC3B7C28964AB700A47259 /* StringExtensionsTests.swift */; };
+		56FC3B7F28964ADC00A47259 /* QuotePresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FC3B7E28964ADC00A47259 /* QuotePresenterTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,7 +63,6 @@
 		56FC3B002895DF6100A47259 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		56FC3B022895DF6100A47259 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		56FC3B042895DF6100A47259 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		56FC3B072895DF6100A47259 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		56FC3B092895DF6500A47259 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		56FC3B0C2895DF6500A47259 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		56FC3B0E2895DF6500A47259 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -75,6 +87,20 @@
 		56FC3B5C2896495400A47259 /* CategoryMapperTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryMapperTests.swift; sourceTree = "<group>"; };
 		56FC3B5D2896495400A47259 /* QuoteMapperTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuoteMapperTests.swift; sourceTree = "<group>"; };
 		56FC3B5E2896495400A47259 /* QuoteServiceTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuoteServiceTests.swift; sourceTree = "<group>"; };
+		56FC3B63289649F000A47259 /* QuotePresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuotePresenter.swift; sourceTree = "<group>"; };
+		56FC3B64289649F000A47259 /* EndEditing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EndEditing.swift; sourceTree = "<group>"; };
+		56FC3B65289649F000A47259 /* AlertDisplaying.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertDisplaying.swift; sourceTree = "<group>"; };
+		56FC3B66289649F000A47259 /* MailComposerRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MailComposerRouter.swift; sourceTree = "<group>"; };
+		56FC3B67289649F000A47259 /* QuoteDisplay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuoteDisplay.swift; sourceTree = "<group>"; };
+		56FC3B68289649F000A47259 /* QuoteViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuoteViewModel.swift; sourceTree = "<group>"; };
+		56FC3B6F28964A1600A47259 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		56FC3B7228964A2A00A47259 /* GetValidEmailAddressesUseCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetValidEmailAddressesUseCase.swift; sourceTree = "<group>"; };
+		56FC3B7328964A2A00A47259 /* GetRandomQuoteUseCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetRandomQuoteUseCase.swift; sourceTree = "<group>"; };
+		56FC3B7628964A5000A47259 /* StringExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
+		56FC3B7828964AAE00A47259 /* GetRandomQuoteUseCaseTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetRandomQuoteUseCaseTests.swift; sourceTree = "<group>"; };
+		56FC3B7928964AAE00A47259 /* GetValidEmailAddressesUseCaseTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetValidEmailAddressesUseCaseTests.swift; sourceTree = "<group>"; };
+		56FC3B7C28964AB700A47259 /* StringExtensionsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtensionsTests.swift; sourceTree = "<group>"; };
+		56FC3B7E28964ADC00A47259 /* QuotePresenterTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuotePresenterTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,8 +170,14 @@
 		56FC3B302895E02D00A47259 /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
+				56FC3B6F28964A1600A47259 /* Main.storyboard */,
 				56FC3B042895DF6100A47259 /* ViewController.swift */,
-				56FC3B062895DF6100A47259 /* Main.storyboard */,
+				56FC3B65289649F000A47259 /* AlertDisplaying.swift */,
+				56FC3B64289649F000A47259 /* EndEditing.swift */,
+				56FC3B66289649F000A47259 /* MailComposerRouter.swift */,
+				56FC3B67289649F000A47259 /* QuoteDisplay.swift */,
+				56FC3B63289649F000A47259 /* QuotePresenter.swift */,
+				56FC3B68289649F000A47259 /* QuoteViewModel.swift */,
 			);
 			path = Presentation;
 			sourceTree = "<group>";
@@ -154,6 +186,7 @@
 			isa = PBXGroup;
 			children = (
 				56FC3B512895E64900A47259 /* DomainError.swift */,
+				56FC3B7128964A2A00A47259 /* UseCases */,
 				56FC3B4C2895E63800A47259 /* Repos */,
 				56FC3B472895E62D00A47259 /* Models */,
 			);
@@ -176,6 +209,7 @@
 			children = (
 				56FC3B342895E0B400A47259 /* HttpClient.swift */,
 				56FC3B352895E0B400A47259 /* HttpError.swift */,
+				56FC3B7628964A5000A47259 /* StringExtensions.swift */,
 			);
 			path = Support;
 			sourceTree = "<group>";
@@ -228,6 +262,7 @@
 		56FC3B55289648DD00A47259 /* Support */ = {
 			isa = PBXGroup;
 			children = (
+				56FC3B7C28964AB700A47259 /* StringExtensionsTests.swift */,
 				56FC3B592896490F00A47259 /* HttpClientTests.swift */,
 			);
 			path = Support;
@@ -247,6 +282,8 @@
 		56FC3B57289648EB00A47259 /* Domain */ = {
 			isa = PBXGroup;
 			children = (
+				56FC3B7828964AAE00A47259 /* GetRandomQuoteUseCaseTests.swift */,
+				56FC3B7928964AAE00A47259 /* GetValidEmailAddressesUseCaseTests.swift */,
 			);
 			path = Domain;
 			sourceTree = "<group>";
@@ -254,8 +291,18 @@
 		56FC3B58289648F700A47259 /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
+				56FC3B7E28964ADC00A47259 /* QuotePresenterTests.swift */,
 			);
 			path = Presentation;
+			sourceTree = "<group>";
+		};
+		56FC3B7128964A2A00A47259 /* UseCases */ = {
+			isa = PBXGroup;
+			children = (
+				56FC3B7228964A2A00A47259 /* GetValidEmailAddressesUseCase.swift */,
+				56FC3B7328964A2A00A47259 /* GetRandomQuoteUseCase.swift */,
+			);
+			path = UseCases;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -339,9 +386,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56FC3B7028964A1600A47259 /* Main.storyboard in Resources */,
 				56FC3B0D2895DF6500A47259 /* LaunchScreen.storyboard in Resources */,
 				56FC3B0A2895DF6500A47259 /* Assets.xcassets in Resources */,
-				56FC3B082895DF6100A47259 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,6 +410,7 @@
 				56FC3B3C2895E5F800A47259 /* QuoteService.swift in Sources */,
 				56FC3B542895E69100A47259 /* Endpoints.swift in Sources */,
 				56FC3B052895DF6100A47259 /* ViewController.swift in Sources */,
+				56FC3B6B289649F000A47259 /* AlertDisplaying.swift in Sources */,
 				56FC3B502895E63800A47259 /* CategoryRepository.swift in Sources */,
 				56FC3B012895DF6100A47259 /* AppDelegate.swift in Sources */,
 				56FC3B4A2895E62D00A47259 /* Quote.swift in Sources */,
@@ -370,12 +418,20 @@
 				56FC3B4F2895E63800A47259 /* QuoteRepository.swift in Sources */,
 				56FC3B3B2895E5F800A47259 /* CategoryService.swift in Sources */,
 				56FC3B362895E0D400A47259 /* HttpClient.swift in Sources */,
+				56FC3B6E289649F000A47259 /* QuoteViewModel.swift in Sources */,
+				56FC3B7428964A2A00A47259 /* GetValidEmailAddressesUseCase.swift in Sources */,
+				56FC3B6A289649F000A47259 /* EndEditing.swift in Sources */,
+				56FC3B6C289649F000A47259 /* MailComposerRouter.swift in Sources */,
 				56FC3B412895E60B00A47259 /* QuoteResponse.swift in Sources */,
+				56FC3B6D289649F000A47259 /* QuoteDisplay.swift in Sources */,
 				56FC3B4B2895E62D00A47259 /* Category.swift in Sources */,
+				56FC3B69289649F000A47259 /* QuotePresenter.swift in Sources */,
 				56FC3B462895E61400A47259 /* QuoteMapper.swift in Sources */,
 				56FC3B402895E60B00A47259 /* CategoryResponse.swift in Sources */,
 				56FC3B522895E64900A47259 /* DomainError.swift in Sources */,
 				56FC3B032895DF6100A47259 /* SceneDelegate.swift in Sources */,
+				56FC3B7728964A5000A47259 /* StringExtensions.swift in Sources */,
+				56FC3B7528964A2A00A47259 /* GetRandomQuoteUseCase.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -383,10 +439,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56FC3B7D28964AB700A47259 /* StringExtensionsTests.swift in Sources */,
 				56FC3B622896495400A47259 /* QuoteServiceTests.swift in Sources */,
 				56FC3B5F2896495400A47259 /* CategoryServiceTests.swift in Sources */,
+				56FC3B7A28964AAE00A47259 /* GetRandomQuoteUseCaseTests.swift in Sources */,
 				56FC3B612896495400A47259 /* QuoteMapperTests.swift in Sources */,
+				56FC3B7F28964ADC00A47259 /* QuotePresenterTests.swift in Sources */,
 				56FC3B5A2896490F00A47259 /* HttpClientTests.swift in Sources */,
+				56FC3B7B28964AAE00A47259 /* GetValidEmailAddressesUseCaseTests.swift in Sources */,
 				56FC3B602896495400A47259 /* CategoryMapperTests.swift in Sources */,
 				56FC3B182895DF6500A47259 /* qod_tech_challengeTests.swift in Sources */,
 			);
@@ -403,14 +463,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		56FC3B062895DF6100A47259 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				56FC3B072895DF6100A47259 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		56FC3B0B2895DF6500A47259 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
