@@ -12,7 +12,6 @@
 		56FC3B052895DF6100A47259 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FC3B042895DF6100A47259 /* ViewController.swift */; };
 		56FC3B0A2895DF6500A47259 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56FC3B092895DF6500A47259 /* Assets.xcassets */; };
 		56FC3B0D2895DF6500A47259 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56FC3B0B2895DF6500A47259 /* LaunchScreen.storyboard */; };
-		56FC3B182895DF6500A47259 /* qod_tech_challengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FC3B172895DF6500A47259 /* qod_tech_challengeTests.swift */; };
 		56FC3B362895E0D400A47259 /* HttpClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FC3B342895E0B400A47259 /* HttpClient.swift */; };
 		56FC3B372895E0D700A47259 /* HttpError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FC3B352895E0B400A47259 /* HttpError.swift */; };
 		56FC3B3B2895E5F800A47259 /* CategoryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FC3B392895E5F800A47259 /* CategoryService.swift */; };
@@ -67,7 +66,6 @@
 		56FC3B0C2895DF6500A47259 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		56FC3B0E2895DF6500A47259 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		56FC3B132895DF6500A47259 /* qod_tech_challengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = qod_tech_challengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		56FC3B172895DF6500A47259 /* qod_tech_challengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = qod_tech_challengeTests.swift; sourceTree = "<group>"; };
 		56FC3B342895E0B400A47259 /* HttpClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpClient.swift; sourceTree = "<group>"; };
 		56FC3B352895E0B400A47259 /* HttpError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpError.swift; sourceTree = "<group>"; };
 		56FC3B392895E5F800A47259 /* CategoryService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryService.swift; sourceTree = "<group>"; };
@@ -162,7 +160,6 @@
 				56FC3B57289648EB00A47259 /* Domain */,
 				56FC3B56289648E400A47259 /* Data */,
 				56FC3B55289648DD00A47259 /* Support */,
-				56FC3B172895DF6500A47259 /* qod_tech_challengeTests.swift */,
 			);
 			path = qod_tech_challengeTests;
 			sourceTree = "<group>";
@@ -448,7 +445,6 @@
 				56FC3B5A2896490F00A47259 /* HttpClientTests.swift in Sources */,
 				56FC3B7B28964AAE00A47259 /* GetValidEmailAddressesUseCaseTests.swift in Sources */,
 				56FC3B602896495400A47259 /* CategoryMapperTests.swift in Sources */,
-				56FC3B182895DF6500A47259 /* qod_tech_challengeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
